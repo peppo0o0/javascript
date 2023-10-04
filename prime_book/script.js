@@ -1,6 +1,18 @@
-/* Create the variable a. Write to it the sum of the numbers 1, 2 and 3. 
-Display the contents of the variable a, using the function alert. */
+/* Create the variable a with the value 10 and variable b with the value 2. 
+Display their sum, difference, product, and quotient (division result). */
 "use strict";   
 
-let a = 1 + 2 + 3;
-alert(a);
+let a = 10;
+let b = 2;
+
+// Sum
+alert(a + b);
+
+// Difference
+alert(a - b);
+
+// Product
+alert(a * b);
+
+// quotient
+alert(a / b);
