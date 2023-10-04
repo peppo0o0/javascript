@@ -1,18 +1,9 @@
-/* Create the variable a with the value 10 and variable b with the value 2. 
-Display their sum, difference, product, and quotient (division result). */
+/* Create the variable c with the value 10 and variable d with the value 5. 
+Sum them up and assign the result to the variable result. Display the value of the variable result. */
 "use strict";   
 
-let a = 10;
-let b = 2;
+let c = 10;
+let d = 5;
 
-// Sum
-alert(a + b);
-
-// Difference
-alert(a - b);
-
-// Product
-alert(a * b);
-
-// quotient
-alert(a / b);
+let result = c + d;
+alert(result);
