@@ -1,8 +1,6 @@
-// Create the variable with the text 'hello' and variable with the text 'world'. 
-// Display the string 'hello world', using these variables and the string concatenation operation.
+// Write a string to a variable. Print the length of your string to the screen.
 "use strict";   
 
-let a = 'hello';
-let b = 'world';
+let testLength = "hello world";
 
-alert(a + " " + b);
+alert(testLength.length);
