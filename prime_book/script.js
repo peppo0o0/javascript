@@ -1,7 +1,4 @@
-// Find the remainder after dividing the following variables:
+// Raise the number 2 to the 10th power. Display the result on the screen.
 "use strict";   
 
-let a = 13;
-let b = 5;
-
-alert(a % b);
+alert(2**10);
