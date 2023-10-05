@@ -1,6 +1,11 @@
-// Write a string to a variable. Print the length of your string to the screen.
+// Rewrite the following code, using variable insertion:
+
+// let str1 = 'xxx';
+// let str2 = 'yyy';
+// let txt  = 'aaa ' + str1 + ' bbb ' + str2 + ' ccc';
 "use strict";   
 
-let testLength = "hello world";
-
-alert(testLength.length);
+let str1 = 'xxx';
+let str2 = 'yyy';
+let txt  = `aaa ${str1} bbb ${str2} ccc`;
+alert(txt);
