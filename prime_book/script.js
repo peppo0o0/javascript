@@ -1,6 +1,7 @@
-// Create the variable a, write some positive or negative number to it. 
-// Display this value with the opposite sign on the screen.
+// Find the remainder after dividing the following variables:
 "use strict";   
 
-let a = 7;
-alert(-a);
+let a = 13;
+let b = 5;
+
+alert(a % b);
