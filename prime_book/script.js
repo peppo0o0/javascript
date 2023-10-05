@@ -1,15 +1,9 @@
-/*Create the variable a with the value 10 and variable b with the value 5. 
-Subtract from a the variable b and assign the result to variable c. After, create the variable d, assign the value 7 to it. 
-Add the variables c and d, then write the result to the variable result. Display the value of the variable result.*/
+// Write the number 1.5 into the variable a and the number 0.75 into the variable b. 
+// Find the sum of the values of these variables and display it on the screen.
 "use strict";   
 
-let a = 10;
-let b = 5;
+let a = 1.5;
+let b = 0.75;
 
-let c = a - b;
-
-let d = 7;
-
-let result = c + d;
-
+let result = a + b;
 alert(result);
