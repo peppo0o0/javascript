@@ -1,8 +1,8 @@
-// Create the variable with the text 'java' and variable with the text 'script'. 
-// Using these variables and the string concatenation operation, display the string 'javascript' on the screen.
+// Create the variable with the text 'hello' and variable with the text 'world'. 
+// Display the string 'hello world', using these variables and the string concatenation operation.
 "use strict";   
 
-let a = 'java';
-let b = 'script';
+let a = 'hello';
+let b = 'world';
 
-alert(a + b);
+alert(a + " " + b);
