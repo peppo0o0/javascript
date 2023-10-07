@@ -1,7 +1,8 @@
-// Create the constant PI and use it to calculate the circumference with a given radius.
-'use strict';
-const PI = 3.14;
-let radius = 7;
-let circumference = (2 * PI) * radius;
+//Given a variable a with the value '10' and a variable b with the value '20'. 
+//Add the given variables as numbers.
 
-alert(circumference);
+'use strict';
+let a = '10';
+let b = '20';
+
+alert(Number(a) + Number(b));
