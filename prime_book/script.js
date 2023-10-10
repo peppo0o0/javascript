@@ -1,9 +1,7 @@
-// Given two variables with numbers. 
-// Add the values of these variables as strings and print the result to the screen.
-
+// Given a variable with a number. Find the number of digits in this number.
 'use strict';
-let a = 5;
-let b = 6;
 
-let res = String(a) + String(b);
-alert(res);
+let number = 319539134912953;
+let str = String(number);
+
+alert(str.length);
