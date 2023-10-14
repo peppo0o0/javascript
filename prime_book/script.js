@@ -1,13 +1,6 @@
-// Given a variable with the string 'abcde'. Referring to the individual characters of this string.
-// write the characters of this string in reverse order into a new variable, that is, 'edcba'.
+// Given the variable str with the string 'abcde' and the variable num with the character index. 
+// Display on the screen the character whose number is stored in the variable num.
 let str = "abcde";
+let num = 4;
 
-let pos4 = str[4];
-let pos3 = str[3];
-let pos2 = str[2];
-let pos1 = str[1];
-let pos0 = str[0];
-
-let strReverse = pos4 + pos3 + pos2 + pos1 + pos0;
-
-alert(strReverse);
+alert(str[num]);
