@@ -1,4 +1,4 @@
-// Given a string. Display its last character on the screen.
-let str = "abcdedsadsadsajdsaasdixzkcnxzcinxcnxzcxzjiuL";
+// Given a string. Display its second-to-last character on the screen.
+let str = "abcdedsadsadsajdsaasdixzkcnxzcinxcnxzcxzji9L";
 
-alert(str[str.length - 1]);
+alert(str[str.length - 2]);
