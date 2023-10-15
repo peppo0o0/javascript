@@ -1,5 +1,5 @@
-// Given the string '12345'. Find the sum of the digits of this string.
+// The number given is 12345. Find the sum of the digits of this number.
+let str = 12345;
+let strConvert = String(str);
 
-let str = '12345';
-
-alert(Number(str[0]) + Number(str[1]) + Number(str[2]) + Number(str[3]) + Number(str[4]));
+alert(Number(strConvert[0]) + Number(strConvert[1]) + Number(strConvert[2]) + Number(strConvert[3]) + Number(strConvert[4]));
