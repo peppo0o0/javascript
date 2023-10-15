@@ -1,4 +1,5 @@
-// Given a string. Display its third-to-last character on the screen.
-let str = "abcdedsadsadsajdsaasdixzkcnxzcinxcnxzcxzj79L";
+// Given the string '12345'. Find the sum of the digits of this string.
 
-alert(str[str.length - 3]);
+let str = '12345';
+
+alert(Number(str[0]) + Number(str[1]) + Number(str[2]) + Number(str[3]) + Number(str[4]));
