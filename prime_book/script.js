@@ -1,6 +1,8 @@
-// The number given is 12345. Find the product of the digits of this number.
+// The number given is 12345. Rearrange the digits of this number in reverse order.
 
-let str = 12345;
-let strConvert = String(str);
+let num = 12345;
+let numString = String(num);
+let [r0, r1, r2, r3, r4] = [numString[0], numString[1], numString[2], numString[3], numString[4]];
+let numReverse = r4 + r3 + r2+ r1 + r0;
 
-alert(strConvert[0] * strConvert[1] * strConvert[2] * strConvert[3] * strConvert[4]);
+alert(numReverse);
