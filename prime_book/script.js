@@ -1,6 +1,6 @@
-// Modify the above code so that numbers are summed not like strings.
+// Use the prompt function to ask the user for the side of a square. Display the area of the given square.
 
-let num1 = prompt('Enter the first number');
-let num2 = prompt('Enter the second number');
+let side = prompt("enter the side of a square: ");
+let area = side * side;
 
-alert(+num1 + +num2); 
+alert("the area of the given square is: " + area);
