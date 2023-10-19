@@ -1,6 +1,9 @@
-// Use the prompt function to ask the user for the side of a square. Display the area of the given square.
+// Use the two functions prompt to ask the user for the sides of a rectangle. 
+// Display the perimeter of the given rectangle.
 
-let side = prompt("enter the side of a square: ");
-let area = side * side;
+let sideA = prompt("enter the height of the rectangle: ");
+let sideB = prompt("enter the base of the rectangle: ");
 
-alert("the area of the given square is: " + area);
+let result = (sideA * 2) + (sideB * 2);
+
+alert("the perimeter of the given rectangle is: " + result);
