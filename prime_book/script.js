@@ -1,5 +1,6 @@
-// Ask the user's age using the prompt function. Print user entered age with alert.
+// Modify the above code so that numbers are summed not like strings.
 
-let age = prompt("Age?")
+let num1 = prompt('Enter the first number');
+let num2 = prompt('Enter the second number');
 
-alert("Your age is: " + age);
+alert(+num1 + +num2); 
