@@ -1,9 +1,9 @@
-// Use the two functions prompt to ask the user for the sides of a rectangle. 
-// Display the perimeter of the given rectangle.
+// The code should find the sum of numbers:
 
-let sideA = prompt("enter the height of the rectangle: ");
-let sideB = prompt("enter the base of the rectangle: ");
+// let num1 = 1;
+// let num2 = 2;
+// console.log('Sum: ' + num1 + num2);
 
-let result = (sideA * 2) + (sideB * 2);
-
-alert("the perimeter of the given rectangle is: " + result);
+let num1 = 1;
+let num2 = 2;
+console.log(`Sum: ${num1 + num2}`);
