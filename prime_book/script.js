@@ -1,13 +1,13 @@
 // The code should find the sum of the numbers:
 
-// let a = '123';
-// let b = '456';
-// let s = Number(a) + String(b);
+// let aaa = 1;
+// let bbb = 2;
+// let ccc = 3;
 
-// console.log(s);
+// console.log(aaa + bbb + ссс);
 
-let a = '123';
-let b = '456';
-let s = Number(a) + Number(b);
+let aaa = 1;
+let bbb = 2;
+let ccc = 3;
 
-console.log(s);
+console.log(aaa + bbb + ccc);
