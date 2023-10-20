@@ -1,7 +1,7 @@
-// The code should output the first digit of the number:
+// The code was supposed to print the number 1 to the console, but it prints 0:
 
-// let num = 123;
-// console.log(num[0]);
+// let a = 0;
+// console.log(a++);
 
-let num = '123';
-console.log(num[0]);
+let a = 0;
+console.log(++a);
