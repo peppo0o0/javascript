@@ -1,9 +1,7 @@
-// The code should find the sum of the digits of the number:
+// The code should output the first digit of the number:
 
-// let num = '123';
-// let sum = num[0] + num[1] + num[2];
-// console.log(sum);
+// let num = 123;
+// console.log(num[0]);
 
 let num = '123';
-let sum = Number(num[0]) + Number(num[1]) + Number(num[2]);
-console.log(sum);
+console.log(num[0]);
