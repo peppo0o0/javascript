@@ -1,9 +1,11 @@
-// The code should output the number of digits in the number:
+// The code should output the last digit of the number:
 
 // let num = 123;
 // let str = String(num);
-// console.log(num.length);
+// console.log(num[num.length]);
 
 let num = 123;
 let str = String(num);
-console.log(str.length);
+let strIndex = str.length;
+strIndex -= 1;
+console.log(str[strIndex]);
