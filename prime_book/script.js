@@ -1,7 +1,7 @@
-// The code should output the number of digits in the number:
+// The code should obtain the number of seconds in a day:
 
-// let num = 123;
-// console.log(num.length);
+// let a = 24 / 60 / 60;
+// console.log(a);
 
-let num = "123";
-console.log(num.length);
+let a = 24 * 60 * 60;
+console.log(a);
