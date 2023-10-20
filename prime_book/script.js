@@ -1,7 +1,7 @@
-// The code was supposed to print the number 1 to the console, but it prints 0:
+// The code should output the number of digits in the number:
 
-// let a = 0;
-// console.log(a++);
+// let num = 123;
+// console.log(num.length);
 
-let a = 0;
-console.log(++a);
+let num = "123";
+console.log(num.length);
