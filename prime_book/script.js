@@ -1,3 +1,3 @@
-// Find the number of seconds in a year.
+// Find the number of minutes in a day..
 
-alert((24 * 60 * 60) * 365);
+alert(24 * 60);
