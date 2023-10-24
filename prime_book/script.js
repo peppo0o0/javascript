@@ -1,8 +1,6 @@
-//  Let the variables a and b with the sides of a rectangle be given.
-//  Find the perimeter of the rectangle and write it to the variable p
-//  Print the contents of this variable to the screen.
+//  Let the variable tc with the temperature in degrees Celsius be given.
+//  Use the appropriate formula to convert this temperature to degrees Fahrenheit.
 
-let a = prompt('height of a rectangle: ');
-let b = prompt('base of a rectangle: ');
-let p = ((2 * a) + (2 * b));
-alert(`the perimeter of the rectangle: ${p}`)
+let tc = prompt('Temperature (Cº): ');
+let tf = ((tc * 9/5) + 32);
+alert(`Temperature (Fº): ${tf}`)
